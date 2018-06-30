@@ -1,0 +1,27 @@
+.Message-list {
+    box-sizing: border-box;
+    padding: 0 0 0 6px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: var(--secondary-color);
+}
+
+.Message {
+    margin: 15px 0;
+}
+
+.Message div:nth-child(1) {
+    font-size: 11px;
+    opacity: 0.9;
+    margin-bottom: 6px;
+}
+
+.Message div:nth-child(2) {
+    background: var(--main-color);
+    color: var(--secondary-color);
+    display: inline;
+    padding: 4px 8px;
+    border-radius: 8px;
+}

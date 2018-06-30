@@ -1,0 +1,20 @@
+:root {
+  --main-color: #5ea3d0;
+  --secondary-color: white;
+  --main-text-color: #3e5869;
+  --secondary-text-color: #b0c7d6;
+  --send-message-form: #F5F5F5;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gugi', cursive;
+  font-weight: 200;
+  color: var(--main-text-color);
+}
+
+#root {
+  height: 100%;
+}
